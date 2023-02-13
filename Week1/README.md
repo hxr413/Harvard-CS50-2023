@@ -7,4 +7,5 @@
 ### [Problem Set 1 Description](https://cs50.harvard.edu/x/2023/psets/1/)
 
 ### My Assignment Work
-`hello.c`
+`hello.c`  
+`mario_less.c`: When input is not an integer, line 10 doesn't print, since the boolean expression in line 13 only considers the situation when input is a wrong integer. Tried to add more conditions and take more datatypes into account but failed. My current knowledge (02/13/2023) is not sufficient to solve this.   
