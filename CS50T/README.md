@@ -1,6 +1,6 @@
 # CS50’s Understanding Technology
 
-### [Course Link](https://cs50.harvard.edu/technology/2017/)
+### [Course Website](https://cs50.harvard.edu/technology/2017/)  
 For more information on the CS50 series, see this [CS50 Guide](https://www.classcentral.com/report/harvard-cs50-guide/). 
 
 ### My Assignment Work
