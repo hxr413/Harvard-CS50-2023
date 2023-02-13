@@ -1,7 +1,6 @@
-# Harvard-CS50-2023
+# CS50’s Introduction to Computer Science 
 
-### CS50’s Introduction to Computer Science 
-[Course Website](https://cs50.harvard.edu/x/2023/)  
+### [Course Website](https://cs50.harvard.edu/x/2023/)  
 For more information on the CS50 series, see this [CS50 Guide](https://www.classcentral.com/report/harvard-cs50-guide/).  
 For my work on the basic level course [CS50 Tech](https://cs50.harvard.edu/technology/2017/), see the [CS50T](https://github.com/hxr413/Harvard-CS50-2023/tree/main/CS50T) folder. 
 
