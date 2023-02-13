@@ -2,7 +2,8 @@
 
 ### My Assignment Work
 `population.c`: The standard answer  
-`population2.c`: A failed attempt trying to use a for loop
+`population2.c`: A failed attempt trying to use a for loop 
+- It was my first instince to use a for loop, so I tried to make it work after finishing `population.c`. Well, it seems like a for loop turned out not to be the best solution.    
 
 ### [Problem Set 1 Description](https://cs50.harvard.edu/x/2023/psets/1/)
 
