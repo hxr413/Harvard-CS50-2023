@@ -18,3 +18,7 @@ Week 8 HTML, CSS, JavaScript
 Week 9 Flask  
 Week 10 Emoji  
 Final Project
+
+### Gradebook
+
+### Certificate
