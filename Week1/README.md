@@ -5,3 +5,6 @@
 `population2.c`: A failed attempt trying to use a for loop
 
 ### [Problem Set 1 Description](https://cs50.harvard.edu/x/2023/psets/1/)
+
+### My Assignment Work
+`hello.c`
