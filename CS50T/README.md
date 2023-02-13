@@ -11,3 +11,7 @@ For more information on the CS50 series, see this [CS50 Guide](https://www.class
 [Week 4 Security](https://docs.google.com/forms/d/e/1FAIpQLSeOwWcO3YqMPN-EZVHXjTQnpepMiXfAbAYE2wvZNoM6D49GBQ/viewscore?vc=0&c=0&w=1&flr=0&viewscore=AE0zAgB0IREQu2S2Cy5TwrvJdJm1_tUGIuiAaN5Lvtnyl9drNJXnPeBWQkMAfrOyaaj_FwI)  
 Week 5 Web Development  
 Week 6 Programming
+
+### Gradebook
+
+### Certificate
