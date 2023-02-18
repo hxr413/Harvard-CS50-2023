@@ -36,7 +36,7 @@ int main(void)
 int compute_score(string word)
 {
     // TODO: Compute and return score for string
-    // Ignore non-letter characters, Handle both uppercase and lowercase letters
+    // Ignore non-letter characters & Handle both uppercase and lowercase letters
     int score = 0;
 
     for (int i = 0, n = strlen(word); i < n; i++)
