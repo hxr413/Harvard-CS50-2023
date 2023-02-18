@@ -10,7 +10,7 @@
 
 ### My Assignment Work
 `readability.c`  
-- Pretty much just repeating what's done in `scrabble.c`, but building the entire programme from scratch. Quite fulfilling that I wrote and debugged everything myself, without looking at any other people's code. 
+- Pretty much just repeating what's done in `scrabble.c`, but building the entire programme from scratch. Quite fulfilling that I wrote and debugged (using `printf`) everything myself, without looking at any other people's code. 
 - A side note: for the `int count_letter(string t)` function, `isalnum` and `isalpha` also work fine as this question doesn't take too many practical details into account. 
 
 `bulbs.c`: **For those who are *less* comfortable with computer science**
