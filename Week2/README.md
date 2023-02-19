@@ -14,4 +14,4 @@
 - A side note: for the `int count_letter(string t)` function, `isalnum` and `isalpha` also work fine as this question doesn't take too many practical details into account. 
 
 `bulbs.c`: **For those who are *less* comfortable with computer science**
-- [This video](https://www.youtube.com/watch?v=w72ckSTpoq4) provides the crucial hint of setting up an `int binary[]` array, which was essential in turning ASCII number into binary code - many thanks.
+- [This video](https://www.youtube.com/watch?v=w72ckSTpoq4) provides the crucial hint of setting up an `int binary[]` array, which was essential in turning ASCII numbers into binary code - many thanks.
