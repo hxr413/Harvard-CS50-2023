@@ -15,3 +15,6 @@
 
 `bulbs.c`: **For those who are *less* comfortable with computer science**
 - [This video](https://www.youtube.com/watch?v=w72ckSTpoq4) provides the crucial hint of setting up an `int binary[]` array, which was essential in turning ASCII numbers into binary code - many thanks.
+
+`caesar.c`: **For those who are *less* comfortable with computer science**  
+`caesar2.c`: My first attempt, which works fine but misses the specification of using a `char rotate(char c, int n)` function. So I modified this to `caesar.c`.  
