@@ -18,3 +18,8 @@
 
 `caesar.c`: **For those who are *less* comfortable with computer science**  
 `caesar2.c`: My first attempt, which works fine but misses the specification of using a `char rotate(char c, int n)` function. So I modified this to `caesar.c`.  
+
+`substitution.c`: **For those who are *more* comfortable with computer science**
+- Can be done relatively easily by modifying `caesar.c`'s code.
+
+`Wordle50`: **For those who are *less* comfortable with computer science**  
