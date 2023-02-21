@@ -23,6 +23,4 @@ Grade: 10/10
 [Week 6 Programming](https://docs.google.com/forms/d/e/1FAIpQLSfYSMd1LR6-bbDGkyWm3LGflCXIlev2LyHzH2vTiQgVDy_7Kw/viewscore?vc=0&c=0&w=1&flr=0&viewscore=AE0zAgBhQp2Qcj2EtxbsIXI39BFomG9VG0WzKgY3OCzlpXHyz8-LQrsB_qDFBSEaypKOkb0)  
 Grade: 8/10  
 
-### Gradebook
-
-### Certificate
+### [Certificate](https://certificates.cs50.io/87384daa-6ed1-41ac-8742-0e6828eb1e76.pdf?size=letter)
