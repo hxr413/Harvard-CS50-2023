@@ -19,6 +19,4 @@ Week 9 Flask
 Week 10 Emoji  
 Final Project
 
-### Gradebook
-
 ### Certificate
