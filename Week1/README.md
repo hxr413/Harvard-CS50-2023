@@ -12,7 +12,7 @@
 
 ### My Assignment Work
 `hello.c`  
-> [check50](https://submit.cs50.io/check50/188d2b6c98bfc25c926c2474c5e714bad6208558):4/4   
+> [check50](https://submit.cs50.io/check50/188d2b6c98bfc25c926c2474c5e714bad6208558): 4/4   
 > style50: 1.00  
 
 `mario_less.c`: **For those who are *less* comfortable with computer science**
