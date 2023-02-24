@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: For selection sort and merge sort, their best case and worst case are the same: selection sort has Θ(n^2), merge sort has Θ(nlogn). Therefore when the length of the list needed to be sorted increases up to 50000, i.e. very large, their running time won't vary too much. However, sort1 shows significant changes in running times for sorted50000.txt (0.458s), reversed50000.txt (5.408s) and random50000.txt (7.186s), hence it is bubble sort.
+
+sort2 uses: Merge Sort
+
+How do you know?: Ruling out bubble sort, selection sort has Θ(n^2), and merge sort has Θ(nlogn). So in general, merge sort will cost less time in all the cases.
+
+sort3 uses: Selection Sort
+
+How do you know?: Ruling out bubble sort, selection sort has Θ(n^2), and merge sort has Θ(nlogn). So in general, selection sort will cost more time in all the cases.
