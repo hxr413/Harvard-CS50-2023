@@ -20,9 +20,9 @@
 `bulbs.c`: **For those who are *less* comfortable with computer science**
 > [check50](https://submit.cs50.io/check50/2112743f0bac72755268395a2068a60772283c7e): 10/10   
 > style50: 1.00  
-- [This video](https://www.youtube.com/watch?v=w72ckSTpoq4) provides the crucial hint of setting up an `int binary[]` array, which was essential in turning ASCII numbers into binary code - many thanks.
+- [This video](https://www.youtube.com/watch?v=w72ckSTpoq4) provides the crucial hint of setting up an `int binary[]` array, which was essential in turning ASCII numbers into binary code - many thanks.  
 
-`caesar.c`: **For those who are *less* comfortable with computer science**
+`caesar.c`: **For those who are *less* comfortable with computer science**  
 `caesar2.c`: My first attempt, which works fine but misses the specification of using a `char rotate(char c, int n)` function. So I modified this to `caesar.c`.  
 > [check50](https://submit.cs50.io/check50/306f69dbe8f5ab40bc01e375d4c0bdf48a6eaed0): 11/11   
 > style50: 1.00  
