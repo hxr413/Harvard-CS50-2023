@@ -20,5 +20,8 @@
 - Referred to [this document](https://github.com/mancuoj/CS50x/blob/master/Week3/1-plurality.c) for the idea of finding out the maximum votes first, then find the corresponding candidates with the maximum votes, i.e. the winner. A similar approach can be found [here](https://github.com/lng205/CS50x2022/blob/master/Week3/plurality/plurality.c).  
 
 `runoff.c`: **For those who are *less* comfortable with computer science**  
+> [check50](https://submit.cs50.io/check50/1b2f78796a678947a22d4f92967ad0e37ccc7f6e): 25/25   
+> style50: 1.00  
+- Basically made it on my first attempt (despite some small grammar mistakes). No major mistakes/misunderstandings in the thinking process and going through the whole coding process smoothly - feel like I'm getting more familiar with programming now, whether it's writing code or thinking like a programmer.
 
 `tideman.c`: **For those who are *more* comfortable with computer science**  
