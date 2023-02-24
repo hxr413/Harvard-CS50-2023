@@ -17,4 +17,8 @@
 `plurality.c`  
 > [check50](https://submit.cs50.io/check50/199f0393f0c24071933707b0872946f0b87fd8c6): 14/14   
 > style50: 1.00  
-- Referred to [this document](https://github.com/mancuoj/CS50x/blob/master/Week3/1-plurality.c) for the idea of finding out the maximum votes first, then find the corresponding candidates with the maximum votes, i.e. the winner. A similar approach can be found [here](https://github.com/lng205/CS50x2022/blob/master/Week3/plurality/plurality.c).
+- Referred to [this document](https://github.com/mancuoj/CS50x/blob/master/Week3/1-plurality.c) for the idea of finding out the maximum votes first, then find the corresponding candidates with the maximum votes, i.e. the winner. A similar approach can be found [here](https://github.com/lng205/CS50x2022/blob/master/Week3/plurality/plurality.c).  
+
+`runoff.c`: **For those who are *less* comfortable with computer science**  
+
+`tideman.c`: **For those who are *more* comfortable with computer science**  
