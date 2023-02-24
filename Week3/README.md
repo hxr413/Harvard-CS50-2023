@@ -14,8 +14,7 @@
 ### [Problem Set 3 Description](https://cs50.harvard.edu/x/2023/psets/3/)
 
 ### My Assignment Work
-`readability.c`  
-> [check50](https://submit.cs50.io/check50/e32286764c50e4d3ffbee25f2784283a7265070e): 11/11   
+`plurality.c`  
+> [check50](https://submit.cs50.io/check50/199f0393f0c24071933707b0872946f0b87fd8c6): 14/14   
 > style50: 1.00  
-- Pretty much just repeating what's done in `scrabble.c`, but building the entire programme from scratch. Quite fulfilling that I wrote and debugged (using `printf`) everything myself, without looking at any other people's code. 
-- A side note: for the `int count_letter(string t)` function, `isalnum` and `isalpha` also work fine as this question doesn't take too many practical details into account. 
+- Referred to [this document](https://github.com/mancuoj/CS50x/blob/master/Week3/1-plurality.c) for the idea of finding out the maximum votes first, then find the corresponding candidates with the maximum votes, i.e. the winner. A similar approach can be found [here](https://github.com/lng205/CS50x2022/blob/master/Week3/plurality/plurality.c).
