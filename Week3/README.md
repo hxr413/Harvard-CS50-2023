@@ -26,3 +26,4 @@
 - It's interesting to see how others deal with the `bool is_tie()` function. I had a look at [this document](https://github.com/mancuoj/CS50x/blob/master/Week3/2-runoff.c) (after finishing my own work) and it's pretty neat. 
 
 `tideman.c`: **For those who are *more* comfortable with computer science**  
+[code for selection sort](https://www.geeksforgeeks.org/selection-sort/)
