@@ -23,7 +23,8 @@
 > [check50](https://submit.cs50.io/check50/1b2f78796a678947a22d4f92967ad0e37ccc7f6e): 25/25   
 > style50: 1.00  
 - Basically made it on my first attempt (despite some small grammar mistakes). No major mistakes/misunderstandings in the thinking process and going through the whole coding process smoothly - feel like I'm getting more familiar with programming now, whether it's writing code or thinking like a programmer.
-- It's interesting to see how others deal with the `bool is_tie()` function. I had a look at [this document](https://github.com/mancuoj/CS50x/blob/master/Week3/2-runoff.c) (after finishing my own work) and it's pretty neat. 
+- It's interesting to see how others deal with the `bool is_tie` function. I had a look at [this document](https://github.com/mancuoj/CS50x/blob/master/Week3/2-runoff.c) (after finishing my own work) and it's pretty neat. 
 
 `tideman.c`: **For those who are *more* comfortable with computer science**  
-[code for selection sort](https://www.geeksforgeeks.org/selection-sort/)
+- For the `sort_pairs` function, I referred to [this code of selection sort](https://www.geeksforgeeks.org/selection-sort/).
+- For the `lock_pairs` function, I figured out that I should use recursion, and know that I need to track if there is a path going from "start: winner 1" (to loser 1 = winner 2, then to loser 2 = winner 3, ..., to loser n-1 = winner n) to "end: loser n = winner 1" and hence forming a cycle. I tried to build everything from a base case, but still I am not sure how to implement that in code exactly, so I had a look at [this document](https://github.com/mancuoj/CS50x/blob/master/Week3/2-tideman.c) and [this document](https://github.com/lng205/CS50x2022/blob/master/Week3/tideman/tideman.c) for inspiration.
