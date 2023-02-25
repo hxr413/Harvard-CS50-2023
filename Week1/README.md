@@ -21,7 +21,7 @@
 - When input is not an integer, line 10 doesn't print, since the boolean expression in line 13 only considers the situation when input is a wrong integer. Tried to add more conditions to take more datatypes into account but failed - my current knowledge (Feb 13th, 2023) is probably not sufficient to solve this.   
 
 `mario_more.c`: **For those who are *more* comfortable with computer science**
-> [check50](https://submit.cs50.io/users/hxr413/cs50/problems/2023/x/mario/more): 10/10  
+> [check50](https://submit.cs50.io/check50/a2d4d940fe27b3e735d67c62a2985dab9564b29f): 10/10  
 > style50: 1.00  
 - Can be easily done once worked out `mario_less.c` - just added a new line of printing two spaces and then copied one of the `for` loops.   
 
