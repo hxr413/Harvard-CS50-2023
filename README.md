@@ -16,7 +16,7 @@ Week 6 Python
 Week 7 SQL  
 Week 8 HTML, CSS, JavaScript  
 Week 9 Flask  
-Week 10 Emoji  
+Week 10 Emoji (No Assignment)  
 Final Project
 
 ### Certificate
