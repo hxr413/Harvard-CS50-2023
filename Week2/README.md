@@ -1,6 +1,4 @@
 ### [Lab 2: Scrabble](https://cs50.harvard.edu/x/2023/labs/2/)
-
-### My Assignment Work
 `scrabble.c`
 > [check50](https://submit.cs50.io/check50/b66754ae039c3659590f4266c8688baa672a8bf7): 11/11   
 > style50: 1.00  
@@ -9,8 +7,6 @@
 
 
 ### [Problem Set 2 Description](https://cs50.harvard.edu/x/2023/psets/2/)
-
-### My Assignment Work
 `readability.c`  
 > [check50](https://submit.cs50.io/check50/e32286764c50e4d3ffbee25f2784283a7265070e): 11/11   
 > style50: 1.00  
