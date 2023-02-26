@@ -1,6 +1,4 @@
 ### [Lab 1: Population Growth](https://cs50.harvard.edu/x/2023/labs/1/)
-
-### My Assignment Work
 `population.c`: The standard answer  
 > [check50](https://submit.cs50.io/check50/689b0566518c72ba16a2773d754e94acfdfefd0c): 10/10  
 > style50: 1.00  
@@ -9,8 +7,6 @@
 - It was my first instinct to use a `for` loop, so I tried to make it work after finishing `population.c`. Well, it seems like a `for` loop turned out not to be the best solution.    
 
 ### [Problem Set 1 Description](https://cs50.harvard.edu/x/2023/psets/1/)
-
-### My Assignment Work
 `hello.c`  
 > [check50](https://submit.cs50.io/check50/188d2b6c98bfc25c926c2474c5e714bad6208558): 4/4   
 > style50: 1.00  
