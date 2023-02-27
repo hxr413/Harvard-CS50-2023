@@ -1,4 +1,4 @@
-### [Lab 3: Sort](https://cs50.harvard.edu/x/2023/labs/4/)
+### [Lab 3](https://cs50.harvard.edu/x/2023/labs/4/)
 `answers.txt`
 > [check50](https://submit.cs50.io/check50/0eafc2bdafbbf1f27f8e6b304d742d1e8ffc60ab): 3/3     
 
