@@ -10,7 +10,7 @@ For my work on the basic level course [CS50 Tech](https://cs50.harvard.edu/techn
 [Week 1 C](Week1)  
 [Week 2 Arrays](Week2)  
 [Week 3 Algorithms](Week3)  
-Week 4 Memory  
+[Week 4 Memory](Week4)  
 Week 5 Data Structures  
 Week 6 Python  
 Week 7 SQL  
