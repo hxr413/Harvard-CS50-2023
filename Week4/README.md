@@ -1,5 +1,5 @@
 ### [Lab 4](https://cs50.harvard.edu/x/2023/labs/4/)
-`helpers.c`: **for Smiley**
+`helpers_smiley.c`: **for Smiley**
 > [check50](https://submit.cs50.io/check50/b26414ef44973577506dc647ed8bc85444ed6971): 4/4  
 > style50: 1.00  
 
