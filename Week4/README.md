@@ -8,7 +8,9 @@
 > style50: 1.00  
 
 ### [Problem Set 4 Description](https://cs50.harvard.edu/x/2023/psets/4/)
-`plurality.c`: **For those who are *less* comfortable with computer science**    
-> [check50](https://submit.cs50.io/check50/199f0393f0c24071933707b0872946f0b87fd8c6): 14/14   
+`helpers_filter_less`: **For those who are *less* comfortable with computer science**    
+> [check50](https://submit.cs50.io/check50/9f177e06ad0f42fa809062c9f9ce1759b09b4c2e): 22/22   
 > style50: 1.00  
-- Referred to [this document](https://github.com/mancuoj/CS50x/blob/master/Week3/1-plurality.c) for the idea of finding out the maximum votes first, then find the corresponding candidates with the maximum votes, i.e. the winner. A similar approach can be found [here](https://github.com/lng205/CS50x2022/blob/master/Week3/plurality/plurality.c).  
+- The `blur` function is pretty painful. I initially wrote very long code with lots of unnecessary variables etc., so first of all there were lots of grammar/syntax mistakes. After deleting all the unnecessary bits and tidying things up, my code still didn't work. It was not convenient to use `debug50` so I basically just stared at my code and tried to modify anything that I can think of and might go wrong...Till now I am still not sure what went wrong exactly but only have guesses based on `check50`, as once it gave some positive feedback, I knew I got something right. I probably spent 4+ hrs on this and 3/4 of the time on `blur`. Fortunately it worked out eventually... and I'm burned out...
+- One thing I'm proud of is that I insisted my own thinking (in terms of which functions to use and how they can work to get the desired results) throughout the coding process, and I kind of developed all the improvements and modifications myself. That's probably also part of the debugging... 
+- Referred to [this document](https://github.com/mancuoj/CS50x/blob/master/Week4/1-filter-less.c) and [this video](https://www.youtube.com/watch?v=eoHIX_PNGcE) during my exhausting debugging. Many thanks. 
