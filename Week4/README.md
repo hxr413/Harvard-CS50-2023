@@ -29,3 +29,8 @@
 > style50: 1.00  
 - This one made me struggle as well...Fortunately it's less painful than `filter`. I was not that familiar (or say comfortable) with the file pointers, so initially it took a bit more time to think through. 
 - For the major problem I encoutered, I made more detailed notes explaining it in the file.
+
+`reverse.c`    
+> [check50](https://submit.cs50.io/check50/05a2918a9dc8e2e7446c65b767b82305d6f965c3): 6/6   
+> style50: 1.00  
+- Still feel uncomfortable with these file pointers, but getting a little bit better. Probably need more practice.
