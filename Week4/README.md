@@ -27,5 +27,5 @@
 `recover.c`    
 > [check50](https://submit.cs50.io/check50/25a0d341db5fbd287ce149e403c436a7cf96c277): 7/7   
 > style50: 1.00  
-- This one made me struggle as well...Fortunately it's less painful than `filter`. I was not familiar (or say comfortable) with the file pointers, so initially it took a bit more time to think through. 
+- This one made me struggle as well...Fortunately it's less painful than `filter`. I was not that familiar (or say comfortable) with the file pointers, so initially it took a bit more time to think through. 
 - For the major problem I encoutered, I made more detailed notes explaining it in the file.
