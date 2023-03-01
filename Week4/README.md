@@ -23,3 +23,9 @@
 - Then `gx_compute` and `gy_compute` will take this 2D array as input, multiple it and the Sobel matrix together to compute the `gx/gy` value for the input pixel. And they will return a `RGBTRIPLE gx/gy`, with `.rgbtRed/Green/Blue` being the newly computed values.
 - However, it seems like in C, I cannot have a function returning a 2D array for me. So I merged `border_pixel` into `gx/gy_compute`, while `gx/gy_compute` can still return a `RGBTRIPLE gx/gy`. Nevertheless, it still won't work, for the reason demonstrated in `helpers_filter_more.c`: `.rgbtRed/Green/Blue` are `BYTE`s, so they won't be able to take gx/gy RGB values, as these would be greater than the maximum 255.
 - It turns out that considering my current knowledge level, it's probably better not to abstract functions outside the main `edge` function (which is different from the case in `blur`).
+
+`recover.c`    
+> [check50](https://submit.cs50.io/check50/25a0d341db5fbd287ce149e403c436a7cf96c277): 7/7   
+> style50: 1.00  
+- This one made me struggle as well...Fortunately it's less painful than `filter`. I was not familiar (or say comfortable) with the file pointers, so initially it took a bit more time to think through. 
+- For the major problem I encoutered, I made more detailed notes explaining it in the file.
