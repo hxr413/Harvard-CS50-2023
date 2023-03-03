@@ -5,8 +5,8 @@ For more information on the CS50 series, see this [CS50 Guide](https://www.class
 
 ### My Assignment Work
 
-[Week 1 Hardware](https://docs.google.com/forms/d/e/1FAIpQLSeuvCIOZcYDdC0f85wJiX8HWWhd0NR2dS5ZsVC22B1jcDe5vw/viewscore?vc=0&c=0&w=1&flr=0&viewscore=AE0zAgAFYUJM1dnB-qvReOmZyKbTrAEgbbMmZgEsYGZCcUdXE75mxkIDyUZE5sVbpWIFWmk)  
-Grade: 9/10   
+[Week 1 Hardware](https://docs.google.com/forms/d/e/1FAIpQLSeuvCIOZcYDdC0f85wJiX8HWWhd0NR2dS5ZsVC22B1jcDe5vw/viewscore?vc=0&c=0&w=1&flr=0&viewscore=AE0zAgDzBMj_nzaW3_t9qus8ylZmQvNKVDbhNLdT6SZLw22iELEihs6c9vbv2ClJrodg3KE)  
+Grade: 10/10   
 
 [Week 2 Internet](https://docs.google.com/forms/d/e/1FAIpQLScwgFJy2wC-ko9uhTPKjYEd8rytyEDpFJ4olxt7mdG-DywuQA/viewscore?vc=0&c=0&w=1&flr=0&viewscore=AE0zAgCfBX5KHb8ktN_Fx-RHhcPpXBIurfgfWnUej2v61I2qC8R_O8AcWamPgiRI6F-r0-U)  
 Grade: 10/10  
@@ -21,6 +21,6 @@ Grade: 10/10
 Grade: 10/10  
 
 [Week 6 Programming](https://docs.google.com/forms/d/e/1FAIpQLSfYSMd1LR6-bbDGkyWm3LGflCXIlev2LyHzH2vTiQgVDy_7Kw/viewscore?vc=0&c=0&w=1&flr=0&viewscore=AE0zAgBhQp2Qcj2EtxbsIXI39BFomG9VG0WzKgY3OCzlpXHyz8-LQrsB_qDFBSEaypKOkb0)  
-Grade: 8/10  
+Grade: 9/10  
 
 ### [Certificate](https://certificates.cs50.io/87384daa-6ed1-41ac-8742-0e6828eb1e76.pdf?size=letter)
