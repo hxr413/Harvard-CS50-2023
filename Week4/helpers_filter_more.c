@@ -123,7 +123,7 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
         {
             // For a certain pixel at position (a, b), compute its gx and gy
 
-            // From Discord @Mao#4194:
+            // From CS0 Discord server @Mao#4194:
             // .rgbtBlue (and the other two) are BYTEs which are just integers capped at 255, so they will never exceed 255
             // If you try to store a number over 255 into a BYTE, it will overflow and wrap-around, so you'd use a long in those cases
             long gx_red = 0, gx_green = 0, gx_blue = 0;
