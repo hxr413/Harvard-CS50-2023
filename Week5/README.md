@@ -23,7 +23,7 @@
 | Time in `unload` | 0.00 | 0.00 | 0.00 | 
 | Time in Total | 0.69 | 0.95 | 3.16 |
 
-- I'm pretty happy with the performance of my hash function as well.
+- I'm pretty happy with the performance of my hash function as well. And I designed this function all by myself without searching online - the only inspiration is that the problem set description says we can consider sums of ASCII values. 
 - Regarding `dictionary.c` and `dictionary2.c`, first thanks for the guidance from @gfred#6558 in CS50 Discord server, which helped me fix all the little details/errors in `dictionary2.c` and improve it into `dictionary.c`. 
   - First, I deleted the unnecessary bits in `unload()`, and changed the `return false` at the end to `return true`. I thought I needed some kinds of conditions to confirm that this function successfully unloads everything, however, we cannot actually determine if something's fully freed, so just `return true` would be fine.
   - Second, for my `hash()` function, I didn't consider that when the words only have 1 letter or 2 letter, they won't have `word[1]` and `word[2]`, which will be uninitialised values causing leaks. (Technically, when the words only have 1 letter, `word[1]` will be the NULL terminator `\0` which is okay, but `word[2]` will be uninitialised.) So I added conditions about these cases, and everything's fine now!
