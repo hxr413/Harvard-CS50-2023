@@ -7,3 +7,19 @@
 
 ### [Problem Set 5 Description](https://cs50.harvard.edu/x/2023/psets/5/)
 `dictionary.c`
+> [check50](https://submit.cs50.io/check50/f7dbacfca6ca32141d5cc0d318314b2ac12a801a): 9/9  
+> style50: 1.00  
+- Not that difficult/complicated. In general things went through relatively smoothly, which is good for this final problem set in C - a happy ending!
+
+| File | xueqin1.txt | xueqin2.txt | shakespeare.txt | 
+| --- | --- | --- | --- | 
+| Words Misspelled | 11089 | 17725 | 71776 | 
+| Words in Dictionary | 143091 | 143091 | 143091 | 
+| Words in Text | 189138 | 265867 | 904612 | 
+| Time in `load` | 0.02 | 0.02 | 0.03 | 
+| Time in `check` | 0.66 | 0.93 | 3.13 | 
+| Time in `size` | 0.00 | 0.00 | 0.00 | 
+| Time in `unload` | 0.00 | 0.00 | 0.00 | 
+| Time in Total | 0.69 | 0.95 | 3.16 |
+
+- I'm pretty happy with the performance of my hash function as well.
