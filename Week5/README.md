@@ -6,7 +6,7 @@
 - For the `TODO: Randomly assign current person's alleles based on the alleles of their parents`, the hint video gives a solution without writing an extra function. I added that method in my code file as notes. 
 
 ### [Problem Set 5 Description](https://cs50.harvard.edu/x/2023/psets/5/)
-`dictionary.c`: This one passes `check50` and `valgrind`  
+`dictionary.c`: This one passes `check50` and `valgrind`, no memory leaks  
 `dictionary2.c`: This one passes `check50` but has memory leaks  
 > [check50](https://submit.cs50.io/check50/f7dbacfca6ca32141d5cc0d318314b2ac12a801a): 9/9  
 > style50: 1.00  
@@ -24,3 +24,6 @@
 | Time in Total | 0.69 | 0.95 | 3.16 |
 
 - I'm pretty happy with the performance of my hash function as well.
+- Regarding `dictionary.c` and `dictionary2.c`, first thanks for the guidance from @gfred#6558 in CS50 Discord server, which helped me fix all the little details/errors in `dictionary2.c` and improve it into `dictionary.c`. 
+  - First, I deleted the unnecessary bits in `unload()`, and changed the `return false` at the end to `return true`. I thought I needed some kinds of conditions to confirm that this function successfully unloads everything, however, we cannot actually determine if something's fully freed, so just `return true` would be fine.
+  - Second, for my `hash()` function, I didn't consider that when the words only have 1 letter or 2 letter, they won't have `word[1]` and `word[2]`, which will be uninitialised values causing leaks. (Technically, when the words only have 1 letter, `word[1]` will be the NULL terminator `\0` which is okay, but `word[2]` will be uninitialised.) So I added conditions about these cases, and everything's fine now!
