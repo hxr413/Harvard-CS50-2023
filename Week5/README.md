@@ -6,7 +6,8 @@
 - For the `TODO: Randomly assign current person's alleles based on the alleles of their parents`, the hint video gives a solution without writing an extra function. I added that method in my code file as notes. 
 
 ### [Problem Set 5 Description](https://cs50.harvard.edu/x/2023/psets/5/)
-`dictionary.c`
+`dictionary.c`: This one passes `check50` and `valgrind`
+`dictionary2.c`: This one passes `check50` but has memory leaks
 > [check50](https://submit.cs50.io/check50/f7dbacfca6ca32141d5cc0d318314b2ac12a801a): 9/9  
 > style50: 1.00  
 - Not that difficult/complicated. In general things went through relatively smoothly, which is good for this final problem set in C - a happy ending!
