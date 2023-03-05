@@ -6,4 +6,4 @@
 - For the `TODO: Randomly assign current person's alleles based on the alleles of their parents`, the hint video gives a solution without writing an extra function. I added that method in my code file as notes. 
 
 ### [Problem Set 5 Description](https://cs50.harvard.edu/x/2023/psets/5/)
-`helpers_filter_less.c`: **For those who are *less* comfortable with computer science**    
+`dictionary.c`
