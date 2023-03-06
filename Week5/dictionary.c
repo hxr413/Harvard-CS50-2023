@@ -74,6 +74,7 @@ unsigned int hash(const char *word)
     {
         letters[0] = toupper(word[0]);
     }
+    // in dictionary, ' usually appears in the format [word]'s, so it's safe to assume for words with 1 or 2 letters, there will be no ' in them.
     else if (strlen(word) == 2)
     {
         letters[0] = toupper(word[0]);
