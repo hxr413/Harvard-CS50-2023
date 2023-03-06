@@ -84,7 +84,7 @@ unsigned int hash(const char *word)
     {
         for (int i = 0; i < 3; i++)
         {
-            // if there is a ', change it to [, which has ASCII value 1 larger than Z
+            // if there is a ', change it to [, which has ASCII value 91, 1 larger than Z(=90)
             if (word[i] == '\'')
             {
                 letters[i] = '[';
