@@ -1,5 +1,5 @@
 # CS50’s Understanding Technology
-*30th Jan, 2023 - 5th Feb, 2023*
+*29th Jan, 2023 - 5th Feb, 2023*
 
 ### [Course Website](https://cs50.harvard.edu/technology/2017/)  
 For more information on the CS50 series, see this [CS50 Guide](https://www.classcentral.com/report/harvard-cs50-guide/). 
