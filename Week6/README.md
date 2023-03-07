@@ -25,6 +25,10 @@
 - It seems like using floating point values will suffer from floating point imprecision and lead to incorrect final results, so I took advice from the CS50 Discord server and used integers throughout my calculation.  
 
 `credit.py`: **For those who are *more* comfortable with computer science**    
-> [check50](https://submit.cs50.io/check50/1a0d15f5917718f3ed0b754db976a573fe9f4c6c): 9/9  
+> [check50](https://submit.cs50.io/check50/37b6df7571c1dd326db7344f907bcadcc88919d4): 14/14  
 > style50: 1.00  
-- Similar to doing this in C - it's easy based on `mario_less.py`.
+- The code is basically the same as `credit.c`. One small improvement is that there is no need to declare `digit2` in advance anymore, since in Python, once it is assigned a value, it can exist everywhere including outside the `while` loop.
+
+`readability.py`  
+> [check50](): 9/9  
+> style50: 1.00  
