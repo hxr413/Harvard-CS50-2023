@@ -14,7 +14,17 @@
 > style50: 1.00  
 - Had a little problem with the requirement "rejects a height of 9, and then accepts a height of 2", but managed to solve it with recursion. I think the application of recursion here is pretty cool, and this makes me get to understand the merits (or say beauty?) about Python a little bit.  
 
-`mario_more.py`: **For those who are *less* comfortable with computer science**    
+`mario_more.py`: **For those who are *more* comfortable with computer science**    
+> [check50](https://submit.cs50.io/check50/1a0d15f5917718f3ed0b754db976a573fe9f4c6c): 9/9  
+> style50: 1.00  
+- Similar to doing this in C - it's easy based on `mario_less.py`.
+
+`cash.py`: **For those who are *less* comfortable with computer science**    
+> [check50](https://submit.cs50.io/check50/7d2f8a2eae2e59c24d43c4c99482779a775ce7cc): 10/10  
+> style50: 1.00  
+- It seems like using floating point values will suffer from floating point imprecision and lead incorrect final results, so I took advice from the CS50 Discord server and used integers through out my calculation.  
+
+`credit.py`: **For those who are *more* comfortable with computer science**    
 > [check50](https://submit.cs50.io/check50/1a0d15f5917718f3ed0b754db976a573fe9f4c6c): 9/9  
 > style50: 1.00  
 - Similar to doing this in C - it's easy based on `mario_less.py`.
