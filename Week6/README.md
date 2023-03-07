@@ -9,4 +9,7 @@
 > [check50](https://submit.cs50.io/check50/0798a1744e5239de649f5a28c1d968eb07058050): 3/3  
 > style50: 1.00  
 
-`helpers_filter_less.c`: **For those who are *less* comfortable with computer science**    
+`mario_less.py`: **For those who are *less* comfortable with computer science**    
+> [check50](https://submit.cs50.io/check50/2b2f3f3efd3ee182872f83bb70a19f4a156dd0fb): 9/9  
+> style50: 1.00  
+- Had a little problem with the requirement "rejects a height of 9, and then accepts a height of 2", but managed to solve it with recursion. I think the application of recursion here is pretty cool, and this makes me get to understand the merits (or say beauty?) about Python a little bit. 
