@@ -32,5 +32,5 @@
 `dna.py`  
 > [check50](https://submit.cs50.io/check50/fe05e2f305455b01db2a19d3564df329560189db): 21/21  
 > style50: 1.00  
-- It's not hard to understand how to solve this mentally, but I'm so unfamiliar with Python that I had almost no idea how to put ideas into practice...Thanks to this [video](https://www.youtube.com/watch?v=buYRzIURjnY) which walks through everything. 
-I don't think the lecture (including Shorts) gives enough introduction of Python syntax and methods and everything to handle this problem - just realised that I didn't watch Section before starting problem sets, but I don't think that will help a lot either. Maybe I'll continue to study CS50P after finishing CS50x, just to learn Python in more depth - it's a pretty cool language. 
+- It's not hard to understand how to solve this mentally, but I'm so unfamiliar with Python that I had almost no idea how to put ideas into practice...Thanks to this [video](https://www.youtube.com/watch?v=buYRzIURjnY) which walks through everything.  
+- I don't think the lecture (including Shorts) gives enough introduction to Python syntax and methods and everything to handle this problem - just realised that I didn't watch Section before starting problem sets, maybe that will actually help and that's why I had difficulties... Maybe I'll continue to study CS50P after finishing CS50x, just to learn Python in more depth - it's a pretty cool language. 
