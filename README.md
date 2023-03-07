@@ -13,7 +13,7 @@ For my work on the basic level course [CS50 Tech](https://cs50.harvard.edu/techn
 [Week 3 Algorithms](Week3)  
 [Week 4 Memory](Week4)  
 [Week 5 Data Structures](Week5)  
-Week 6 Python  
+[Week 6 Python](Week6)  
 Week 7 SQL  
 Week 8 HTML, CSS, JavaScript  
 Week 9 Flask  
