@@ -30,5 +30,5 @@
 - The code is basically the same as `credit.c`. One small improvement is that there is no need to declare `digit2` in advance anymore, since in Python, once it is assigned a value, it can exist everywhere including outside the `while` loop.
 
 `readability.py`  
-> [check50](): 9/9  
+> [check50](https://submit.cs50.io/check50/f033c612f95fc2276123892d810336a5b5273313): 10/10  
 > style50: 1.00  
