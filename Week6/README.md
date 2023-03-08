@@ -38,3 +38,8 @@
 ### [Week 6 Practice Problems](https://cs50.harvard.edu/x/2023/problems/6/)
 `bank.py`  
 > [check50](https://submit.cs50.io/check50/fbdb0bca034b7db74abedb7f977a85598d13f688): 7/7  
+
+`figlet.py`  
+> [check50](https://submit.cs50.io/check50/77a1a8081562c6c9af41056d0ed96e310e525351): 7/7  
+- Got hung up by a really stupid mistake: in line 12 it should be `and` not `or`, and I wrote `or` unawarely, so didn't notice that for a long while...
+- I also spent some time thinking about how to deal with the condition at line 14, specifically how to make use of a `for-in` loop, and suddenly realised that I can actually use `not in`...
