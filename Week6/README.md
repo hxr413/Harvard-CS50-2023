@@ -36,7 +36,7 @@
 - I don't think the lecture (including Shorts) gives enough introduction to Python syntax and methods and everything to handle this problem - just realised that I didn't watch Section before starting problem sets, maybe that will actually help and that's why I had difficulties... Maybe I'll continue to study CS50P after finishing CS50x, just to learn Python in more depth - it's a pretty cool language. 
 
 ### [Week 6 Practice Problems](https://cs50.harvard.edu/x/2023/problems/6/)
-- To get more familiar with Python, I did some extra practice problems for this week.
+- I've watched Section now and it helps a little bit. To get more familiar with Python, I did some extra practice problems for this week.
 
 `bank.py`  
 > [check50](https://submit.cs50.io/check50/fbdb0bca034b7db74abedb7f977a85598d13f688): 7/7  
