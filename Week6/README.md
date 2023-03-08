@@ -42,4 +42,9 @@
 `figlet.py`  
 > [check50](https://submit.cs50.io/check50/77a1a8081562c6c9af41056d0ed96e310e525351): 7/7  
 - Got hung up by a really stupid mistake: in line 12 it should be `and` not `or`, and I wrote `or` unawarely, so didn't notice that for a long while...
-- I also spent some time thinking about how to deal with the condition at line 14, specifically how to make use of a `for-in` loop, and suddenly realised that I can actually use `not in`...
+- I also spent some time thinking about how to deal with the condition at line 14, specifically how to make use of a `for-in` loop, and suddenly realised that I can actually use `not in`...  
+
+`taqueria.py`  
+> [check50](https://submit.cs50.io/check50/705f4b1cf827c35ee6cfe10ef997f641ed814496): 7/7  
+- Had a bit of difficulty with how to keep prompting for input after showing `Total: `, but solved that with a `while True` loop. It's in the lecture notes so I'm kind of  aware of it, but was just unsure if this is the right place to use it. 
+- I was not sure how the `except EOFError:` bit works and thought I need to add some conditions like `if item == 'control-d':`...I looked for some sample code online and the solves the question.
