@@ -52,4 +52,5 @@
 - I was not sure how the `except EOFError:` bit works and thought I need to add some conditions like `if item == 'control-d':`...I looked for some sample code online and the solves the question.
 
 `jar.py`  
-- Not finished. The course material doesn't cover enough content on OOP for this problem, so I don't think I'm capable of completing it unless I spend a lot of extra time and effort learning about this. I tried to search online but there seems to be a big knowlegde gap that I can fill in a short time. The specific knowledge about OOP isn't my focus at this point, as I just want to improve my familiarity with Python syntax, so I decided that it's better to move on.
+- Not finished. The course material doesn't cover enough content on OOP for this problem, so I don't think I'm capable of completing it unless I spend a lot of extra time and effort learning about this. I tried to search online but there seems to be a big knowlegde gap that I can fill in a short time. The specific knowledge about OOP isn't my focus at this point, as I just want to improve my familiarity with Python syntax, so I decided that it's better to move on.  
+- I did find a [video](https://www.youtube.com/watch?v=HtO8bQos6bs) explaining this problem though, but since it's a problem from CS50P problem sets, I don't want to learn the answer before watching the lecture. 
