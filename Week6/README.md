@@ -61,3 +61,6 @@
 **Seven Day Average**
 - I skipped this one as well as I think I'm still not familiar with dictionaries enough to complete this. I found a [walkthrough video](https://www.youtube.com/watch?v=o4Id02mdMAw) on this problem, and watching half of it, I found that I can understand why she type this and that code, i.e. how each line of code makes some effect towards the final goal, but I don't understand why the syntax works. Again the knowledge gap is too big. 
 - One thing this video inspired me about is that I should learn to use the VS Code debugger, as it seems extremely helpful. That will be another todo after completing CS50x first.
+
+
+#### Update: I've watched the Flat-File Database part of Week 7 SQL lecture, and that's actually all about Python. It would be helpful if this part was in the Week 6 Python lecture...
