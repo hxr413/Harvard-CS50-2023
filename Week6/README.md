@@ -51,6 +51,12 @@
 - Had a bit of difficulty with how to keep prompting for input after showing `Total: `, but solved that with a `while True` loop. It's in the lecture notes so I'm kind of  aware of it, but was just unsure if this is the right place to use it. 
 - I was not sure how the `except EOFError:` bit works and thought I need to add some conditions like `if item == 'control-d':`...I looked for some sample code online and the solves the question.
 
-`jar.py`  
-- Not finished. The course material doesn't cover enough content on OOP for this problem, so I don't think I'm capable of completing it unless I spend a lot of extra time and effort learning about this. I tried to search online but there seems to be a big knowlegde gap that I can fill in a short time. The specific knowledge about OOP isn't my focus at this point, as I just want to improve my familiarity with Python syntax, so I decided that it's better to move on.  
+
+The following two are meant for those who are more comfortable with Python. I tried them both but decided to move one for now. If I continue to learn CS50P, I shall come back for them.  
+**Jar**  
+- The course material doesn't cover enough content on OOP for this problem, so I don't think I'm capable of completing it unless I spend a lot of extra time and effort learning about this. I tried to search online but there seems to be a big knowlegde gap that I can fill in a short time. The specific knowledge about OOP isn't my focus at this point, as I just want to improve my familiarity with Python syntax, so it's better to pass now.  
 - I did find a [video](https://www.youtube.com/watch?v=HtO8bQos6bs) explaining this problem though, but since it's a problem from CS50P problem sets, I don't want to learn the answer before watching the lecture. 
+
+**Seven Day Average**
+- I skipped this one as well as I think I'm still not familiar with dictionaries enough to complete this. I found a [walkthrough video](https://www.youtube.com/watch?v=o4Id02mdMAw) on this problem, and watching half of it, I found that I can understand why she type this and that code, i.e. how each line of code makes some effect towards the final goal, but I don't understand why the syntax works. Again the knowledge gap is too big. 
+- One thing this video inspired me about is that I should learn to use the VS Code debugger, as it seems extremely helpful. That will be another todo after completing CS50x first.
