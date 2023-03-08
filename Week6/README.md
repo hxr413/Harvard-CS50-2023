@@ -36,7 +36,7 @@
 - I don't think the lecture (including Shorts) gives enough introduction to Python syntax and methods and everything to handle this problem - just realised that I didn't watch Section before starting problem sets, maybe that will actually help and that's why I had difficulties... Maybe I'll continue to study CS50P after finishing CS50x, just to learn Python in more depth - it's a pretty cool language. 
 
 ### [Week 6 Practice Problems](https://cs50.harvard.edu/x/2023/problems/6/)
-- I've watched Section now and it helps a little bit. To get more familiar with Python, I did some extra practice problems for this week.
+**I've watched Section now and it helps a little bit. To get more familiar with Python, I did some extra practice problems for this week.**
 
 `bank.py`  
 > [check50](https://submit.cs50.io/check50/fbdb0bca034b7db74abedb7f977a85598d13f688): 7/7  
@@ -52,7 +52,8 @@
 - I was not sure how the `except EOFError:` bit works and thought I need to add some conditions like `if item == 'control-d':`...I looked for some sample code online and the solves the question.
 
 
-The following two are meant for those who are more comfortable with Python. I tried them both but decided to move one for now. If I continue to learn CS50P, I shall come back for them.  
+#### The following two are meant for those who are more comfortable with Python. I tried them both but decided to move one for now. If I continue to learn CS50P, I shall come back for them.  
+
 **Jar**  
 - The course material doesn't cover enough content on OOP for this problem, so I don't think I'm capable of completing it unless I spend a lot of extra time and effort learning about this. I tried to search online but there seems to be a big knowlegde gap that I can fill in a short time. The specific knowledge about OOP isn't my focus at this point, as I just want to improve my familiarity with Python syntax, so it's better to pass now.  
 - I did find a [video](https://www.youtube.com/watch?v=HtO8bQos6bs) explaining this problem though, but since it's a problem from CS50P problem sets, I don't want to learn the answer before watching the lecture. 
