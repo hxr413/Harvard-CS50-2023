@@ -82,7 +82,7 @@ AND phone_calls.receiver IN (
     SELECT receiver FROM phone_calls
     WHERE year = 2021 AND month = 7 AND day = 28 AND duration <= 60 AND caller = '(367) 555-5533'
 );
--- Result: Robin
+-- result: Robin
 
 -- find Diana's receiver
 SELECT * FROM people, phone_calls
@@ -91,7 +91,7 @@ AND phone_calls.receiver IN (
     SELECT receiver FROM phone_calls
     WHERE year = 2021 AND month = 7 AND day = 28 AND duration <= 60 AND caller = '(770) 555-1861'
 );
--- Result: Philip
+-- result: Philip
 
 -- find fiftyville's airport
 SELECT id FROM airports WHERE city = 'Fiftyville';
