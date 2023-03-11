@@ -7,4 +7,9 @@
 > [check50](https://submit.cs50.io/check50/dab39e2489abae8dde8e6185f3a4cf0b05308af5): 14/14  
 - Pretty straight forward until `11.sql`. I wasn't aware of `IN` and had been using `=` all the time, but `4.sql` helped me fix that. 
 - Since `11.sql` I start to pay attention to styles and write two columns after `FROM`, use techniques like `FROM movies, ratings WHERE ratings.movie_id = movies.id`, which I learned from CS50 Discord server. 
-- In `12.sql` I learned about `INTERSECT`, but I still wonder if there are ways to make the code shorter and reduce the repeated part. Similarly for `13.sql`, I learned about `EXCEPT`, but it seems like I can only write `EXCEPT SELECT name FROM people WHERE name = 'Kevin Bacon'`, which is kind of long, as `EXCEPT 'Kevin Bacon'` will lead to syntax error. 
+- In `12.sql` I learned about `INTERSECT`, but I still wonder if there are ways to make the code shorter and reduce the repeated part. Similarly for `13.sql`, I learned about `EXCEPT`, but it seems like I can only write `EXCEPT SELECT name FROM people WHERE name = 'Kevin Bacon'`, which is kind of long, as `EXCEPT 'Kevin Bacon'` will lead to syntax error.  
+
+ `log.sql` and `answers.txt`  
+ `log2.sql`  
+> [check50](https://submit.cs50.io/check50/3e3763961a26ce7a08e49271a6ea30b48d0dd1cf): 3/3 
+- Inspired by [this post](https://www.reddit.com/r/cs50/comments/llxhvl/fiftyville_greatest_problem_set_ever/), I tried to shorten my queries.
