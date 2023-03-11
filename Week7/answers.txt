@@ -1,0 +1,7 @@
+1. If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+Calculate the average energy, valence and danceability of a listener's top 100 songs, then determin the audio aura based on the numebrs. For example, "Purple: This aura color pairs well with passionate music listeners. " So if one's average energy and danceability are above certain threshold value, they will be considered as purple.
+
+2. Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener.What better ways of calculating this aura would you propose?
+The listener may not be an active user, so maybe they haven't even listed much to their top 50-100, and including these songs will cause biases in the data.
+An improvement would be based on the user's activity, e.g. log-in frequency, changing the range of songs to be included in calculation. For example, including the top 100 songs for active users, but only the top 30 songs for inactive users.
+Also including more factors like speechiness and tempo for calculation, and/or developing a weight function to weight each song's data according to their ranking. It's also worth considering lowering one song's weight according to their duration values, since short songs may get played on a loop more than longer songs, which leads to a higher ranking.
