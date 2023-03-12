@@ -20,7 +20,7 @@ Grade: 10/10
 
 [Week 5 Web Development](https://docs.google.com/forms/d/e/1FAIpQLSd4m0lwD-7NI_QIm6Cwg1dnVnW00JavoPoSCfqyd3eibGPzag/viewscore?vc=0&c=0&w=1&flr=0&viewscore=AE0zAgDq6JwLmOyGoqNDVbmf3VNUGZFDFk4u8PIKY8jEN_-e3qFBwIlrCBHGDtN7JjdQTLM)  
 Grade: 10/10  
-- For this week's assignment, I made a simple [website](https://replit.com/@hxr413/CS50T-Week-5-Assignment#calendar.html) with 2 webpages. 
+- For this week's assignment, I made a simple [website](https://replit.com/@hxr413/CS50T-Week-5-Assignment#index.html) with 2 webpages. 
 
 [Week 6 Programming](https://docs.google.com/forms/d/e/1FAIpQLSfYSMd1LR6-bbDGkyWm3LGflCXIlev2LyHzH2vTiQgVDy_7Kw/viewscore?vc=0&c=0&w=1&flr=0&viewscore=AE0zAgBhQp2Qcj2EtxbsIXI39BFomG9VG0WzKgY3OCzlpXHyz8-LQrsB_qDFBSEaypKOkb0)  
 Grade: 9/10  
