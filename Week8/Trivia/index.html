@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            // excute code after the page is loaded
+            window.addEventListener('load', function(){
+                // multiple choice question
+                const buttons = document.querySelectorAll('.right, .wrong')
+                // put right and wrong buttons into different arrays
+                const rightButton = [];
+                const wrongButton = [];
+                buttons.forEach(function(button){
+                    if (button.classList.contains('right')){
+                        rightButton.push(button);
+                    } else {
+                        wrongButton.push(button);
+                    }
+                });
+                // change colour and show feedback on click
+                buttons.forEach(function(button){
+                    button.addEventListener('click',function(){
+                        if (rightButton.includes(button)){
+                            button.style.backgroundColor = 'green';
+                            document.querySelector('.feedback1').innerHTML = 'Correct!';
+                        } else {
+                            button.style.backgroundColor = 'red';
+                            document.querySelector('.feedback1').innerHTML = 'Incorrect.';
+                        }
+                    });
+                });
+                // free response question
+                let userAnswer = document.querySelector('input');
+                document.querySelector('#check').addEventListener('click', function(){
+                    if (userAnswer.value.toLowerCase() === 'tamora') {
+                        userAnswer.style.backgroundColor = 'green';
+                        document.querySelector('.feedback2').innerHTML = 'Correct!';
+                    } else {
+                        userAnswer.style.backgroundColor = 'red';
+                        document.querySelector('.feedback2').innerHTML = 'Incorrect.';
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the color of Donald Duck's bowtie? </h3>
+                <button class="right">Red </button>
+                <button class="wrong">Yellow </button>
+                <button class="wrong">Green </button>
+                <button class="wrong">Blue </button>
+                <p class="feedback1"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>In Shakespeare's play "Titus Andronicus", who is the Queen of the Goths? </h3>
+                <form>
+                    <input placeholder="Type here" type="text">
+                    <button id="check" type="submit">Check answer </button>
+                    <p class="feedback2"></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
