@@ -33,17 +33,22 @@
                         }
                     });
                 });
-                // free response question
-                let userAnswer = document.querySelector('input');
-                document.querySelector('#check').addEventListener('click', function(){
-                    if (userAnswer.value.toLowerCase() === 'tamora') {
-                        userAnswer.style.backgroundColor = 'green';
-                        document.querySelector('.feedback2').innerHTML = 'Correct!';
-                    } else {
-                        userAnswer.style.backgroundColor = 'red';
-                        document.querySelector('.feedback2').innerHTML = 'Incorrect.';
-                    }
-                });
+
+                document.querySelector('form').addEventListener('submit', (event) => {
+                    event.preventDefault();
+
+                    // free response question
+                    let userAnswer = document.querySelector('input');
+                    document.querySelector('#check').addEventListener('click', function(){
+                        if (userAnswer.value.toLowerCase() === 'tamora') {
+                            userAnswer.style.backgroundColor = 'green';
+                            document.querySelector('.feedback2').innerHTML = 'Correct!';
+                        } else {
+                            userAnswer.style.backgroundColor = 'red';
+                            document.querySelector('.feedback2').innerHTML = 'Incorrect.';
+                        }
+                    });
+                });            
             });
         </script>
     </head>
