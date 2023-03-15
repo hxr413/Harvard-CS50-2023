@@ -1,0 +1,158 @@
+body {
+  background-image: url("img/background.jpg");
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: auto;
+}
+
+nav {
+  background-color: #ffffff00;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 20px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(77, 15, 15);
+}
+
+.container {
+  border: 2px solid rgba(77, 15, 15, 0.8);
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.content {
+  margin: 30px;
+}
+
+p {
+  color: #f2f2f2;
+  font-size: 18px;
+  text-align: justify;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+h2 {
+  color: rgb(77, 15, 15);
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+iframe {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+#note {
+  padding-left: 15px;
+}
+
+table {
+  color: #f2f2f2;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+td {
+  padding-left: 15px;
+  vertical-align: top;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card-text {
+  color: rgb(87, 87, 87);
+  margin-left: 0px;
+}
+
+.btn-primary {
+  background-color: rgb(77, 15, 15);
+  border-color: rgb(77, 15, 15);
+}
+
+.btn-primary:hover {
+  background-color: rgb(77, 15, 15);
+  border-color: rgb(77, 15, 15);
+  color: #f2f2f2;
+}
+
+.carousel-item {
+  padding: 60px;
+}
+
+.carousel-item img {
+  border-radius: 20px;
+}
+
+form {
+  text-align: left;
+}
+
+.form-group {
+  margin: 30px; 
+}
+
+label {
+  color: #f2f2f2;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#send-message {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+#success-message {
+  margin-top: -30px;
+  margin-left: 10px;
+  color: #f2f2f2;
+  font-size: 14px;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  background-color: none;
+}
