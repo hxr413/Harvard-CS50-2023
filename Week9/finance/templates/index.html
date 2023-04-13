@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <table>
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+       <tbody>
+            {% for row in rows %}
+            <tr name="row">
+                <td>{{ row.symbol }}</td>
+                <td>{{ row.name }}</td>
+                <td>{{ row.shares }}</td>
+                <td>{{ row.price | usd }}</td>
+                <td>{{ row.stock_total | usd }}</td>
+            </tr>
+            {% endfor%}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="sum" colspan="4">Cash</td>
+                <td>{{ cash | usd }}</td>
+            </tr>
+            <tr>
+                <td class="sum" colspan="4">TOTAL</td>
+                <td>{{ total | usd }}</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form action="/cash" method="post">
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" type="number" step="0.01" min="0"  name="amount" placeholder="Cash amount" type="number">
+            <input type="hidden" name="operation" value="">
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary" type="submit" onclick="document.querySelector('input[name=operation]').value='add';">Add</button>
+            <button class="btn btn-primary" type="submit" onclick="document.querySelector('input[name=operation]').value='subtract';">Subtract</button>
+        </div>
+    </form>
+{% endblock %}
