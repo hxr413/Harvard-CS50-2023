@@ -16,7 +16,7 @@ For my work on the basic level course [CS50 Tech](https://cs50.harvard.edu/techn
 [Week 6 Python](Week6)  
 [Week 7 SQL](Week7)  
 [Week 8 HTML, CSS, JavaScript](Week8)  
-Week 9 Flask  
+[Week 9 Flask](Week 9)  
 Week 10 Emoji (No Assignment)  
 Final Project
 
