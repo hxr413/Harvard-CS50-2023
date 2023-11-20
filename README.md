@@ -1,5 +1,5 @@
 # CS50’s Introduction to Computer Science 
-*6th Feb, 2023 - 13th April, 2023 (without Final Project - will come back for it later!)*
+*6th Feb, 2023 - 13th April, 2023 (without Final Project)*
 
 ### [Course Website](https://cs50.harvard.edu/x/2023/)  
 For more information on the CS50 series, see this [CS50 Guide](https://www.classcentral.com/report/harvard-cs50-guide/).  
