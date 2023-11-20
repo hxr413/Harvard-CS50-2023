@@ -1,5 +1,5 @@
 # CS50’s Introduction to Computer Science with Python
-*7th Jul, 2023 -*
+*Will start soon...*
 
 ### [Course Website](https://cs50.harvard.edu/python/2022/)  
 For more information on the CS50 series, see this [CS50 Guide](https://www.classcentral.com/report/harvard-cs50-guide/).  
